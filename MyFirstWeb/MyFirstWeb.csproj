@@ -67,11 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\counterpunch main.css" />
     <Content Include="HTML\FirstPage.html" />
     <Content Include="HTML\counterpunch main.html" />
     <Content Include="HTML\famous boxers.html" />
     <Content Include="HTML\img\Boxing-Schedule-2023.jpg" />
     <Content Include="HTML\img\corner-header.jpg" />
+    <Content Include="HTML\img\מוחמד עלי.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

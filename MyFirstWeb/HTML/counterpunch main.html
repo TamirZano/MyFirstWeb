@@ -3,20 +3,79 @@
 <head>
     <meta charset="utf-8" />
     <title>main</title>
+    <link href="../CSS/counterpunch main.css" rel="stylesheet" />
+
+    <style>
+
+        h1, h2 {
+            text-align: center;
+            font-size: 45px;
+        }
+
+        p {
+            direction: rtl;
+            font-size: 20px;
+        }
+
+        #Header {
+            color: white;
+            background-image: url('../HTML/img/corner-header.jpg');
+            background-size: 30% 100%;
+        }
+
+        .main_menu {
+            display: flex;
+            background-color: azure
+        }
+
+        .menu_item {
+            width: 12%
+        }
+
+        .container_row {
+            width: 100%;
+            display: flex;
+            margin-top: 5px;
+        }
+
+        .left_container {
+            flex: 0.2;
+        }
+
+        .right_container {
+            flex: 0.8;
+        }
+
+        .full_container {
+            flex: 1;
+        }
+
+        .frame_text_style {
+            direction: rtl;
+            border: solid 3px black;
+            background-color: azure;
+            padding: 10px;
+        }
+
+        .row_image {
+            display: block;
+            width: 98%;
+        }
+
+    </style>
 </head>
 
 <body>
-    <div style=" color: white; background-image: url('img/corner-header.jpg'); background-size:30% 100%">
-        <h1 style="text-align: center;font-size:45px;">counterpunch</h1>
+    <div id="Header">
+        <h1>counterpunch</h1>
+        <h2>הכל על אגרוף</h2>
 
-        <h2 style="text-align: center; font-size: 45px;">הכל על אגרוף</h2>
-
-        <div style="display:flex;background-color:azure">
-            <div style="width:15%">
+        <div class="main_menu">
+            <div class="menu_item" ">
                 <a href="https://he.wikipedia.org/wiki/%D7%90%D7%92%D7%A8%D7%95%D7%A3_(%D7%A1%D7%A4%D7%95%D7%A8%D7%98)" target="_blank">Boxing in wikipedia</a>
             </div>
 
-            <div style="width:15%">
+            <div class="menu_item">
                 <a href="famous boxers.html" target="_blank"> Famous boxers</a>
             </div>
         </div>
@@ -25,17 +84,15 @@
 
     <hr />
 
-    <div style="display:flex;margin:10px">
+    <div class="container_row">
 
-        <div style="width:30%">
-            <img style="display:block; height:100%; width:98%" src="img/Boxing-Schedule-2023.jpg" />
+        <div class="left_container">
+            <img class="row_image" src="img/Boxing-Schedule-2023.jpg" />
         </div>
 
-        <div style="width:70%; direction:rtl;border: solid 3px black ;padding:10px;background-color:azure" >
-            <p style="font-size: 20px">
-
+        <div class="right_container frame_text_style">
+            <p>
                 <b>.אגרוף הוא שם כללי למספר ענפי ספורט לחימה בהם ספורטאים נלחמים זה בזה באמצעות שימוש באגרוף</b>
-
                 בין ענפים אלה ישנם ענפים מודרניים, כמו אגרוף מודרני ואגרוף תאילנדי, וגם ענפים עתיקים.
                 ("באגרוף המודרני המתחרים עוטים כפפות מרופדות ("כפפות אגרוף"),
                 <br />
@@ -43,12 +100,18 @@
 
             </p>
         </div>
-
     </div>
-    <div style="border: solid 3px black; background-color:azure;margin:10px;padding:10px;direction:rtl">
-        <p style="font-size: 20px">
-         סתם בדיקה נוסיף טקסט אחר כך
-        </p>
+
+    <div class="container_row">
+        <div class="full_container frame_text_style">
+            <p>
+                איגרוף, חובבני ומקצועי כאחד, כולל התקפה והגנה באגרופים. מתאגרפים בדרך כלל לובשים כפפות מרופדות ובאופן כללי שומרים על הקוד שנקבע בחוקי קווינסבר.
+                <br />
+                מותאמים במשקל וביכולת, מתמודדי האגרוף מנסים להנחית מכות חזקות באגרופיהם, וכל אחד מהם מנסה להימנע ממכות היריב.
+                <br />
+                מתאגרף מנצח קרב אם על ידי קבלת ניקוד גבוה מהיריב או על ידי כך שהיריב לא יוכל להמשיך בקרב (Knockout). ההתמודדות נעה בין 3 ל -12 סיבובים, כאשר כל סיבוב נמשך בדרך כלל שלוש דקות
+            </p>
+        </div>
     </div>
 
 </body>

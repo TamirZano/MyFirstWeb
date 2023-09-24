@@ -1,0 +1,51 @@
+﻿        h1,h2 {
+            text-align: center;
+            font-size: 45px;
+        }
+
+        p {
+            direction: rtl;
+            font-size: 20px;
+        }
+
+        #logo {
+             color: white; background-image: url('../HTML/img/corner-header.jpg'); background-size:30% 100%;
+        }
+
+        #logo2 {
+            display:flex;
+            background-color:azure
+        }
+
+        #logo3 {
+            display: flex;
+            margin: 10px
+        }
+
+        #logo4 {
+            width: 30%
+        }
+
+        #logo5 {
+            display: block;
+            height: 100%;
+            width: 98%
+        }
+
+        #logo6 {
+            width: 70%;
+        }
+
+        #logo7 {
+            margin: 10px;
+        }
+
+        .class1 {
+            width: 15%
+        }
+
+        .class2 {
+            padding: 10px;
+            border: solid 3px black;
+            background-color: azure;
+        }
