@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.custom-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    .custom-header h1 {
+        font-size: 2em;
+    }
+
+    .custom-header nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .custom-header nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+            .custom-header nav ul li a {
+                text-decoration: none;
+                color: #fff;
+            }

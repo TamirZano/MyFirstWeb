@@ -4,82 +4,30 @@
     <meta charset="utf-8" />
     <title>main</title>
     <link href="../CSS/counterpunch main.css" rel="stylesheet" />
-
-    <style>
-
-        h1, h2 {
-            text-align: center;
-            font-size: 45px;
-        }
-
-        p {
-            direction: rtl;
-            font-size: 20px;
-        }
-
-        #Header {
-            color: white;
-            background-image: url('../HTML/img/corner-header.jpg');
-            background-size: 30% 100%;
-        }
-
-        .main_menu {
-            display: flex;
-            background-color: azure
-        }
-
-        .menu_item {
-            width: 12%
-        }
-
-        .container_row {
-            width: 100%;
-            display: flex;
-            margin-top: 5px;
-        }
-
-        .left_container {
-            flex: 0.2;
-        }
-
-        .right_container {
-            flex: 0.8;
-        }
-
-        .full_container {
-            flex: 1;
-        }
-
-        .frame_text_style {
-            direction: rtl;
-            border: solid 3px black;
-            background-color: azure;
-            padding: 10px;
-        }
-
-        .row_image {
-            display: block;
-            width: 98%;
-        }
-
-    </style>
 </head>
 
 <body>
-    <div id="Header">
-        <h1>counterpunch</h1>
-        <h2>הכל על אגרוף</h2>
+    <div class="MainPageHeader">
+        <h1>counterpunch <br /> הכל על אגרוף</h1> 
+         
+    </div>
 
-        <div class="main_menu">
-            <div class="menu_item" ">
-                <a href="https://he.wikipedia.org/wiki/%D7%90%D7%92%D7%A8%D7%95%D7%A3_(%D7%A1%D7%A4%D7%95%D7%A8%D7%98)" target="_blank">Boxing in wikipedia</a>
-            </div>
-
-            <div class="menu_item">
-                <a href="famous boxers.html" target="_blank"> Famous boxers</a>
-            </div>
+    <div class="main_menu">
+        <div class="menu_item" ">
+            <a href="https://he.wikipedia.org/wiki/%D7%90%D7%92%D7%A8%D7%95%D7%A3_(%D7%A1%D7%A4%D7%95%D7%A8%D7%98)" target="_blank">Boxing in wikipedia</a>
         </div>
 
+        <div class="menu_item">
+            <a href="famous boxers.html">מתאגרפים מפורסמים</a>
+        </div>
+
+        <div class="menu_item">
+            <a href="box_types.html">סוגי אגרופים</a>
+        </div>
+
+        <div class="menu_item">
+            <a href="boxing_championships_types.html">ארגוני אגרוף</a>
+        </div>
     </div>
 
     <hr />
@@ -87,7 +35,7 @@
     <div class="container_row">
 
         <div class="left_container">
-            <img class="row_image" src="img/Boxing-Schedule-2023.jpg" />
+            <img class="image" src="img/Boxing-Schedule-2023.jpg" />
         </div>
 
         <div class="right_container frame_text_style">

@@ -68,12 +68,33 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\counterpunch main.css" />
-    <Content Include="HTML\FirstPage.html" />
+    <Content Include="CSS\main.css" />
+    <Content Include="HTML\boxing_championships_types.html" />
+    <Content Include="HTML\box_types.html" />
     <Content Include="HTML\counterpunch main.html" />
     <Content Include="HTML\famous boxers.html" />
+    <Content Include="HTML\img\Belt-IBF.jpg" />
+    <Content Include="HTML\img\Belt-WBA.jpg" />
+    <Content Include="HTML\img\Belt-WBC.jpg" />
+    <Content Include="HTML\img\Belt-WBO.jpg" />
     <Content Include="HTML\img\Boxing-Schedule-2023.jpg" />
+    <Content Include="HTML\img\boxing_types_cross.jpg" />
+    <Content Include="HTML\img\boxing_types_cross_w.jpg" />
+    <Content Include="HTML\img\boxing_types_hook.jpg" />
+    <Content Include="HTML\img\boxing_types_hook_w.jpg" />
+    <Content Include="HTML\img\boxing_types_jab.jpg" />
+    <Content Include="HTML\img\boxing_types_jab_w.jpg" />
+    <Content Include="HTML\img\boxing_types_uppercut.jpg" />
+    <Content Include="HTML\img\boxing_types_uppercut_w.jpg" />
+    <Content Include="HTML\img\CaneloÁlvarez_l.jpg" />
+    <Content Include="HTML\img\CaneloÁlvarez_w.jpg" />
     <Content Include="HTML\img\corner-header.jpg" />
-    <Content Include="HTML\img\מוחמד עלי.jpg" />
+    <Content Include="HTML\img\MikeTyson_l.jpg" />
+    <Content Include="HTML\img\MikeTyson_w.jpg" />
+    <Content Include="HTML\img\MuhammadAli_l.jpg" />
+    <Content Include="HTML\img\MuhammadAli_w.jpg" />
+    <Content Include="HTML\img\ReyRobinson_l.jpg" />
+    <Content Include="HTML\img\ReyRobinson_w.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
