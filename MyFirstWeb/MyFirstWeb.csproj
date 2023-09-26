@@ -70,6 +70,16 @@
     <Content Include="CSS\counterpunch main.css" />
     <Content Include="CSS\main.css" />
     <Content Include="HTML\boxing_championships_types.html" />
+    <Content Include="HTML\img\Hagar_Finer.jpg" />
+    <Content Include="HTML\img\RanNakash.jpg" />
+    <Content Include="HTML\img\RomanGrinberg.jpg" />
+    <Content Include="HTML\img\training_types_heavy_bag_workout.jpg" />
+    <Content Include="HTML\img\training_types_shadow.jpg" />
+    <Content Include="HTML\img\training_types_sparring.jpg" />
+    <Content Include="HTML\img\training_types_strength_and_conditioning.jpg" />
+    <Content Include="HTML\img\Yuri_Foreman.jpg" />
+    <Content Include="HTML\training_types.html" />
+    <Content Include="HTML\israeli_boxing.html" />
     <Content Include="HTML\box_types.html" />
     <Content Include="HTML\counterpunch main.html" />
     <Content Include="HTML\famous boxers.html" />
@@ -101,7 +111,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTML\img\Sanneh-Boxing-Virtuosos.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
