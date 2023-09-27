@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\counterpunch main.css" />
-    <Content Include="CSS\main.css" />
     <Content Include="HTML\boxing_championships_types.html" />
     <Content Include="HTML\img\Hagar_Finer.jpg" />
     <Content Include="HTML\img\RanNakash.jpg" />
